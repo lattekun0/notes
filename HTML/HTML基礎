@@ -1,1 +1,17 @@
-<!DOCTYPE html> //告訴瀏覽器我是用html5版本在寫
+```
+<!DOCTYPE html> //宣告這個文件是用HTML5寫的
+<html>  //最外層
+<head>  //第二層，網頁的描述
+    <title>Page Title</title>  //第三層，網頁的標題
+</head>
+<body>  //第二層，決定主畫面內容
+
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+    
+</body>
+</html>
+```
+#### Note:
+* <h1>My First Heading</h1> 整串稱為一個element
+* Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
